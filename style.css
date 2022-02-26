@@ -1,0 +1,18 @@
+/* tailwind cssのjitモードの代わりに使用 */
+
+#mainvisual {
+    height: 482px;
+}
+
+.work-images {
+    width: 400px;
+    height: 243px;
+}
+
+hr {
+    height: 1px;
+}
+
+.contact-form {
+    border: 1px solid #9CA3AF;
+}

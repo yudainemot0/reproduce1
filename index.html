@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="都内を拠点に活動しているフォトグラファーのポートフォリオサイト">
+    <script src="https://kit.fontawesome.com/2808fc0fc2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/tailwind.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Work</title>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header -->
+    <header class="flex justify-between h-72 items-center pl-56">
+        <h1 class="text-7xl font-light">My Work</h1>
+        <nav class="pr-56">
+            <ul class="flex">
+                <li class="pr-7 text-xl font-light"><a href="#about">About</a></li>
+                <li class="pr-7 text-xl font-light"><a href="#work">Work</a></li>
+                <li class="pr-7 text-xl font-light"><a href="#news">News</a></li>
+                <li class="pr-7 text-xl font-light"><a href="#contact">Contact</a></li>
+                <li class="text-xl"><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- #Mainvisual -->
+        <section id="mainvisual" class="h-96 w-full bg-no-repeat bg-center"
+            style="background-image: url('./images/mainvisual.jpg');">
+        </section>
+
+        <!-- #About -->
+        <section id="about">
+            <h2 class="font-sans text-3xl font-semibold text-center pt-3">About</h2>
+            <div class="flex justify-center text-2xl font-light">
+                <div class="w-11/12 lg:w-5/12">
+                    <h3 class="text-3xl lg:text-2xl pt-3 pb-7">Sample.inc</h3>
+                    <ul>
+                        <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+                        <li>tel: 000-0000-0000</li>
+                        <li>url: www.xxxxxx.jp</li>
+                        <li>mail: xxx@xxxxxx.jp</li>
+                    </ul>
+                    <p class="pt-11">プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- #Work -->
+        <section id="work" class="px-1 lg:px-56">
+            <h2 class="font-sans text-3xl font-semibold text-center pt-12 pb-12">Work</h2>
+            <ul class="grid grid-cols-3 gap-y-32 gap-x-16">
+                    <li><img src="images/image1.jpg" alt="建築物" class="work-images"></li>
+                    <li><img src="images/image2.jpg" alt="建築物" class="work-images"></li>
+                    <li><img src="images/image3.jpg" alt="建築物" class="work-images"></li>
+                    <li><img src="images/image4.jpg" alt="建築物" class="work-images"></li>
+                    <li><img src="images/image5.jpg" alt="建築物" class="work-images"></li>
+                    <li><img src="images/image6.jpg" alt="建築物" class="work-images"></li>
+            </ul>
+        </section>
+
+        <!-- #News -->
+        <section id="news">
+            <h2 class="font-sans text-3xl font-semibold text-center pt-12 pb-12">News</h2>
+            <div class="flex justify-center text-2xl font-light">
+                <dl>
+                    <hr width="955px" class="bg-gray-400 border-none">
+                    <div class="flex py-9 gap-16 pl-3"><dt>2020.xx.xx</dt><dd>デザイン雑誌「xxxxx」に掲載していただきました。</dd></div>
+                    <hr width="955px" class="bg-gray-400 border-none">
+                    <div class="flex py-9 gap-16 pl-3"><dt>2020.xx.xx</dt><dd>xx月xx日から写真集「xxxxxxx」を発売します。</dd></div>
+                    <hr width="955px" class="bg-gray-400 border-none">
+                    <div class="flex py-9 gap-16 pl-3"><dt>2021.xx.xx</dt><dd>【イベント開催のお知らせ】xx月xx日からxxxxに出展します。</dd></div>
+                    <hr width="955px" class="bg-gray-400 border-none">
+                    <div class="flex py-9 gap-16 pl-3"><dt>2021.xx.xx</dt><dd>デザイン雑誌「yyyyy」に掲載していただきました。</dd></div>
+                    <hr width="955px" class="bg-gray-400 border-none">
+                    <div class="flex py-9 gap-16 pl-3"><dt>2022.xx.xx</dt><dd>【個展開催】xx月xx日から渋谷区xxで個展「xxx」を開催します。</dd></div>
+                    <hr width="955px" class="bg-gray-400 border-none">
+                </dl>
+            </div>
+        </section>
+
+        <!-- #Contact -->
+        <section id="contact" class="text-center">
+            <h2 class="font-sans text-3xl font-semibold pt-36 pb-12">Contact</h2>
+            <div>
+                <form action="" method="post">
+                    <div><input type="text" placeholder="NAME" class="contact-form border-solid border-1 border-gray-400 h-9 lg:h-7 w-11/12 lg:w-1/3 pl-1"></div>
+                    <div><input type="email" placeholder="EMAIL" class="contact-form border-solid border-1 border-gray-400 my-5 h-9 lg:h-7 w-11/12 lg:w-1/3 pl-1"></div>
+                    <div><textarea name="message" id="" cols="30" rows="10" placeholder="MESSAGE" class="contact-form border-solid border-1 border-gray-400 h-28 lg:h-20 w-11/12 lg:w-1/3 pl-1"></textarea></div>
+                    <div><button class="w-28 h-5 bg-black text-white text-xs mt-5">送信</button></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="w-full h-16 bg-black mt-28 flex items-center justify-center">
+        <p class="text-white text-sm">©2022 My Work</p>
+    </footer>
+</body>
+</html>
